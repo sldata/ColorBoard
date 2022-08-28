@@ -42,6 +42,9 @@ const removeColor = (square) => {
     
 }
 
+const handleSpeed = () => {
+    const newSpeed = this.dataset.speed + 's'
+}
+
 createSquares()
 
-removeColor()
